@@ -16,7 +16,8 @@ public class SearchService {
 	
 	private static SearchService searchService = new SearchService();
 	
-	private SearchService() {}
+	private SearchService() {
+	}
 	
 	public static SearchService getInstance() {
 		return searchService;
